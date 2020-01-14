@@ -28,4 +28,6 @@
 - 破解 App 来源限制，在终端运行 sudo spctl --master-disable
 - 设置 hidpi
 
+![image](./mac.png)
+
 
