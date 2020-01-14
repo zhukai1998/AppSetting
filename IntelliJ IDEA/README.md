@@ -4,5 +4,6 @@
 
 打开 IntelliJ IDEA 后，暂时选择 30 天免费试用 Evaluate for free
 
-随意新建一个 project 
-点击 Help - Edit Custom VM Options
+- 随意新建一个 project 
+- 点击 Help - Edit Custom VM Options，如图
+![image](http://github.com/zhukai1998/AppSetting/edit/master/IntelliJ%20IDEA/edit_custom_vm_options.png)
