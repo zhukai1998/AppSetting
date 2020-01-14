@@ -5,6 +5,8 @@
 - 修改密码 alter user 'root'@'localhost' identified with mysql_native_password by 'Your password'
 - 添加用户 create user 'username'@'host' identified by 'Your password' 
 -- host 为 '%' 时为任意 IP
+- 赋权 grant privileges on dbname.tablename to 'username'@'host'
+-- privileges: 用户的操作权限，如 select、insert、update 或者 all privileges
 - 导入 sql : source path
 - 导出 sql ：
 -- 导出整个数据库：mysqldump -u username -p password dbname > dbname.sql;
