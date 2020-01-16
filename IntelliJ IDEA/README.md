@@ -1,4 +1,4 @@
-# IntelliJ IDEA
+# IntelliJ IDEA / CLion
 
 - 首先感谢前辈大人们的无私分享，本人只是搬运
 
