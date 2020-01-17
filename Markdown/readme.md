@@ -191,14 +191,16 @@ _
 在  ``` 后添加代码的语言
 
 # 表格
-使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行：
+- 使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行：
 ```
 name | age
 ---- | ---
 LearnShare | 12
 Mike |  32
 ```
-效果如<br>
+
+效果如
+
 name | age
 ---- | ---
 LearnShare | 12
@@ -207,22 +209,26 @@ Mike |  32
 - 对齐
 在表头下方的分隔线标记中加入 :，即可标记下方单元格内容的对齐方式：
 
+```
 :--- 代表左对齐
 :--: 代表居中对齐
 ---: 代表右对齐
-```
+
 | left | center | right |
 | :--- | :----: | ----: |
 | aaaa | bbbbbb | ccccc |
 | a    | b      | c     |
 ```
-效果如<br>
+
+效果如
+
 | left | center | right |
 | :--- | :----: | ----: |
 | aaaa | bbbbbb | ccccc |
 | a    | b      | c     |
 
 # Task List
+
 ```
 - [ ] Eat
 - [x] Code
@@ -231,7 +237,9 @@ Mike |  32
   - [x] JavaScript
 - [ ] Sleep
 ```
-效果如<br>
+
+效果如
+
 - [ ] Eat
 - [x] Code
   - [x] HTML
