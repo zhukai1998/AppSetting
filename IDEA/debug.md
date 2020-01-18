@@ -30,3 +30,7 @@
 - 光标悬停到参数上，显示当前变量信息，快捷方便
 - 在 Variables 里查看，这里显示当前方法里的所有变量
 - 在 Watches 里，点击 New Watch，输入需要查看的变量。或者可以从 Variables 里拖到 Watches 里查看
+
+
+
+keytool -genkey -alias 别名 -keypass 密码 -keyalg RSA -keysize 1024 -validity 365 -keystore 路径/密钥.keystore -storepass 密码
