@@ -18,9 +18,11 @@ grant all on *.* to 'root'@'localhost';
 <br>
 -- 此时，可以使用以下2种方式，实现远程：
 -- 1. 使用alter user
+<br>
 alter user set user.host='%' where user.user='root';
 <br>
 -- 2. 使用create user
+<br>
 create user 'userName'@'%' identified 'your_password';
 <br>
 - 导入 sql
