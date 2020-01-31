@@ -12,18 +12,14 @@ create user 'username'@'host' identified by 'Your password'
 - 赋权 
 grant privileges on dbname.tablename to 'username'@'host'
 <br>
--- privileges: 用户的操作权限，如 select、insert、update 或者 all privileges
+-- privileges: 用户的操作权限，如 select、insert、update、create 或者 all privileges
 -- 使用以下命令可以成功，但无法远程登陆：
 grant all on *.* to 'root'@'localhost';
 <br>
 -- 此时，可以使用以下2种方式，实现远程：
--- 1. 使用alter user
-<br>
-alter user set user.host='%' where user.user='root';
-<br>
--- 2. 使用create user
-<br>
-create user 'userName'@'%' identified 'your_password';
+use mysql
+-- 1. 使用update user
+update user set host='%' where user ='root';
 <br>
 - 导入 sql
 source path
