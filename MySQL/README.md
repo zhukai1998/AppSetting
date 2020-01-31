@@ -27,6 +27,7 @@ create user 'userName'@'%' identified 'your_password';
 source path
 <br>
 - 导出 sql
+<br>
 -- 导出整个数据库
 mysqldump -u username -p password dbname > dbname.sql;
 <br>
