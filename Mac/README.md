@@ -24,14 +24,14 @@
 - 可按照 黑果小兵的教程进行之后的操作 [https://blog.daliansky.net/MacOS-installation-tutorial-XiaoMi-Pro-installation-process-records.html]
 - Mac 安装完成后，EFI 合并后，使用 Kext Utility，之后重启电脑
 - 插入 WiFi USB，安装驱动，连接到 WI-FI，便可以上网了
-- 开启次像素抗锯齿，在终端运行 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
-- 破解 App 来源限制，在终端运行 sudo spctl --master-disable
+- 开启次像素抗锯齿，在终端运行 `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
+- 破解 App 来源限制，在终端运行 `sudo spctl --master-disable`
 - 设置 hidpi
 
 ![image](./mac.png)
 
 # zshrc
 - `vim ~/.zshrc`
-- 'source ~/.zshrc'
+- `source ~/.zshrc`
 
 
