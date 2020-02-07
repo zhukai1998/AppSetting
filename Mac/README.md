@@ -30,4 +30,8 @@
 
 ![image](./mac.png)
 
+# zshrc
+- `vim ~/.zshrc`
+- 'source ~/.zshrc'
+
 
