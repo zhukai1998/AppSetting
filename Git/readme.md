@@ -9,7 +9,7 @@
 # 绑定 github 上的 SSH Key
 - 拷贝 `~/.ssh/id_rsa.pub`的内容
 - 粘贴在 github - setting - SSH and GPG keys
-- `ssh -T git@github.com` 测试是否绑定成功，如出现以下信息，则成功
+- `ssh -T git@github.com` 测试是否绑定成功，如出现以下信息，则成功<br>
 `Hi zhukai1998! You've successfully authenticated, but GitHub does not provide shell access.`
 
 # git 本地配置
