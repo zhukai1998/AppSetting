@@ -32,5 +32,5 @@
 - 在 Watches 里，点击 New Watch，输入需要查看的变量。或者可以从 Variables 里拖到 Watches 里查看
 
 
-
-keytool -genkey -alias 别名 -keypass 密码 -keyalg RSA -keysize 1024 -validity 365 -keystore 路径/密钥.keystore -storepass 密码
+# Android-Studio 密钥
+`keytool -genkey -alias 别名 -keypass 密码 -keyalg RSA -keysize 1024 -validity 365 -keystore 路径/密钥.keystore -storepass 密码`
