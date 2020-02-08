@@ -134,9 +134,9 @@ H2
 - 自动链接 <>
 
 # 图片
-- ![Github](path)
+- ![image](path)
 ```
-![Github](link)
+![image](link)
 ```
 - Markdown不支持指定图片的显示大小，不过可以直接插入<img />标签来指定相关属性
 
