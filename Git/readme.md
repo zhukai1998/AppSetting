@@ -18,3 +18,13 @@
 - 添加到暂停区（索引） `git add <file>` 或者 `git add .` 添加全部
 - 提交到仓库：`git commit -m "备注"`
 - 推送文件到仓库 `git push -u origin master`
+
+# 编辑 github 的文件名
+- 首先我们将整个仓库clone到本地 `git clone url`
+- `git init`
+- `git rm / rm -r / mv filename`
+- `git commit -m "log message"`
+- `git push origin master`
+
+# 删除本地仓库
+- 删除本地仓库隐藏文件 .git 即可，之后便可以删除本地仓库
