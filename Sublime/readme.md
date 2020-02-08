@@ -14,3 +14,5 @@
 - ConvertToUTF8 UTF8转换
 - Codecs33 windows 中文编码
 - Material Theme
+- OmniMarkupPreview md 实时预览
+- TableEditor md talbe书写。首先需要用ctrl + shift + p打开这个功能，然后就可以狂用tab来自动完成了
