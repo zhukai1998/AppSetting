@@ -124,11 +124,20 @@ H2
 
 # 超链接
 - 普通链接：[text](link)
+```
+[link]
+```
 - 指向本地文件的链接：[icon.png](path)
+```
+[icon.png](link)
+```
 - 自动链接 <>
 
 # 图片
 - ![Github](path)
+```
+![Github](link)
+```
 - Markdown不支持指定图片的显示大小，不过可以直接插入<img />标签来指定相关属性
 
 # 强调
