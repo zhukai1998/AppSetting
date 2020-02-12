@@ -9,7 +9,7 @@
 - 两个 jar 包，随意用哪个都可以
 - 将下载的 jar 包 放到 /Applications/IntelliJ IDEA.app/Contents/lib/ 下
 
-- 修改 hosts 文件，在文件末加入 `0.0.0.0 https://account.jetbrains.com:443` （不加入的话，激活码识别失败）
+- 修改 etc/hosts 文件，在文件末加入 `0.0.0.0 https://account.jetbrains.com:443` （不加入的话，激活码识别失败）
 
 - 随意新建一个 project 
 - 点击 Help - Edit Custom VM Options，如图
