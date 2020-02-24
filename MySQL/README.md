@@ -9,10 +9,13 @@ alter user 'root'@'localhost' identified with mysql_native_password by 'Your pas
 create user 'username'@'host' identified by 'Your password' 
 <br>
 -- host 为 '%' 时为任意 IP
+<br>
 - 赋权 
+<br>
 grant privileges on dbname.tablename to 'username'@'host'
 <br>
 -- privileges: 用户的操作权限，如 select、insert、update、create 或者 all privileges
+<br>
 -- 使用以下命令可以成功，但无法远程登陆：
 grant all on *.* to 'root'@'localhost';
 <br>
