@@ -21,7 +21,8 @@
 
 # 编辑 github 的文件名
 - 首先我们将整个仓库clone到本地 `git clone url`
-- `git init`
+- cd 仓库
+`git init`
 - `git rm / rm -r / mv filename`
 - `git commit -m "log message"`
 - `git push origin master`
