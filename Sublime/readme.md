@@ -15,4 +15,11 @@
 - Codecs33 windows 中文编码
 - Material Theme
 - OmniMarkupPreview md 实时预览,需要浏览器支持
-- TableEditor md talbe书写。首先需要用command + shift + p，输入 TableEditor，选择Enable for current syntax
+- TableEditor md文件 talbe书写。首先需要用command + shift + p，输入 TableEditor，选择Enable for current syntax
+```
+创建一个表格
+输入：
+|第一列|第二列|第三列|
+|-
+然后按tab即可生成一个表格。
+```
