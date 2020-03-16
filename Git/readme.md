@@ -33,7 +33,7 @@
 - 用 IDEA 根据下载好的仓库文件夹新建一个项目
 - cd 仓库
 - `git init`
-- `git rm / rm -r / mv filename`
+- `git add filename`
 - `git commit -m "log message"`
 - `git push origin master`
 
