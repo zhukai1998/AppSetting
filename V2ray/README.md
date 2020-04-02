@@ -26,7 +26,7 @@ bash go.sh
 查看 config.json
 cat /etc/v2ray/config.json
 修改 alterId
-修改 levelId
+修改 level
 ```
 
 - v2ray 设置
