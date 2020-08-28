@@ -41,3 +41,6 @@ mysqldump -u username -p password -d dbname > dbname.sql;
 -- 导出表结构
 mysqldump -u username -p password -d dbname tablename > tablename.sql
 <br>
+
+
+https://zhuanlan.zhihu.com/p/137629154
