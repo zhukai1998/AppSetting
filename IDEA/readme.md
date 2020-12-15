@@ -86,6 +86,18 @@ IDE会自行检测其自身和所安装插件的更新并给予提示。如果�
 插件源码使用：GPL-2.0开源协议发布。
 插件使用PHP编写，毕竟PHP是世界上最好的编程语言！
 ```
+
+
+
+# 热部署
+IDEA JRebel
+
+https://www.guidgen.com
+
+https://jrebel.qekang.com/{GUID}
+
+
+https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a
 # 参考资料
 - https://segmentfault.com/a/1190000021175516
 - https://www.exception.site/essay/your-activation-code-could-not-be-validated-error-1653219
