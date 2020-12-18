@@ -16,7 +16,7 @@
 - Material Theme
 - OmniMarkupPreview md 实时预览,需要浏览器支持
 - TableEditor md文件 talbe书写。首先需要用command + shift + p，输入 TableEditor，选择Enable for current syntax/view
-- https://www.jianshu.com/p/161f8f9c4146
+- https://www.jianshu.com/p/161f8f9c4146 其中GoSublime链接如下https://margo.sh/GoSublime
 ```
 创建一个表格
 输入：
