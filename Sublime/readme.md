@@ -29,3 +29,19 @@
 填入数据后，直接按 Tab 会自动格式化空格
 
 ```
+
+
+
+
+- 取消注释换行依然会加//
+菜单栏的Sublime Text, 找到：
+
+Preferences -> Package Settings -> Doc Blockr -> Settings - User
+
+添加以下内容:
+
+```
+{
+  "jsdocs_extend_double_slash": false
+}
+```
