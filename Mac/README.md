@@ -34,4 +34,7 @@
 - `vim ~/.zshrc`
 - `source ~/.zshrc`
 
+# 终端 ssh 自动断开链接
+- 修改 `vim ~/.ssh/config` 添加 `ServerAliveInterval 30`
+
 
