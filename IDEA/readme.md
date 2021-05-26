@@ -91,6 +91,11 @@ https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a
 - [参考](https://github.com/alibaba/p3c/tree/master/idea-plugin)
 
 
+# 插件安装
+Atom Material File Icons
+Material Theme UI Plugin
+ 导入setting压缩包
+
 # 参考资料
 - https://segmentfault.com/a/1190000021175516
 - https://www.exception.site/essay/your-activation-code-could-not-be-validated-error-1653219
