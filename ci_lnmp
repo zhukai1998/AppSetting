@@ -3,6 +3,8 @@ rewrite ^/(.*)$ /ci/index.php?$1 last;
 break;
 }
 
+搜索关键字：隐藏入口文件 ci nginx
+
 
 https://daimajiaoliu.com/daima/47e0c73ad9003e4
 
