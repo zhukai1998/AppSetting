@@ -1,0 +1,13 @@
+if (!-e $request_filename) {
+rewrite ^/(.*)$ /ci/index.php?$1 last;
+break;
+}
+
+
+https://daimajiaoliu.com/daima/47e0c73ad9003e4
+
+
+https://blog.csdn.net/yanzi1225627/article/details/49699483
+
+https://my.oschina.net/u/1036767/blog/634415
+http://hk.uwenku.com/question/p-redtfysp-bep.html
