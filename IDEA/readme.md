@@ -92,8 +92,9 @@ https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a
 
 
 # 插件安装
-Atom Material File Icons
-Material Theme UI Plugin
+- Atom Material File Icons
+- Material Theme UI Plugin
+- rainbow bracketes
  导入setting压缩包
 
 # 参考资料
