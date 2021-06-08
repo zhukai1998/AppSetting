@@ -75,14 +75,17 @@ IDE会自行检测其自身和所安装插件的更新并给予提示。如果�
 
 
 # 热部署
-IDEA JRebel
+## IDEA JRebel
 
-https://www.guidgen.com
+- 生成 [GUID](https://www.guidgen.com) 的网址
+- 用 `https://jrebel.qekang.com/` + 获取刚生成的 GUID 拼接：`https://jrebel.qekang.com/{GUID}`，如 `https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a`
+- 将拼接后的 URL 填写到 JREBEL 的 Tean URL 栏，再填写个人邮箱后，开始激活
+- 在 IDEA 的 Preferences 里搜索 JREBEL，将其设置为 WORK OFFLINE
 
-https://jrebel.qekang.com/{GUID}
 
 
-https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a
+
+
 
 
 
@@ -96,6 +99,10 @@ https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a
 - Material Theme UI Plugin
 - rainbow bracketes
  导入setting压缩包
+ 
+ 
+ 
+ 
 
 # 参考资料
 - https://segmentfault.com/a/1190000021175516
