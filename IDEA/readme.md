@@ -26,11 +26,12 @@
 - 生成 [GUID](https://www.guidgen.com) 的网址
 - 用 `https://jrebel.qekang.com/` + 获取刚生成的 GUID 拼接：`https://jrebel.qekang.com/{GUID}`，如 `https://jrebel.qekang.com/19a51130-ee54-4b73-bcca-6f7169c8f01a`
 - 将拼接后的 URL 填写到 JREBEL 的 Tean URL 栏，再填写个人邮箱后，开始激活
-- Build, Execution, Deployment -> Compiler
-- Enable Build project automatically.
-- Select Appearance & Behavior > System Settings
-- Enable Save files automatically if application is idle for [2]s
+- 选择 Build, Execution, Deployment -> Compiler
+- 启用 Build project automatically.
+- 选择 Appearance & Behavior > System Settings
+- 填写 Save files automatically if application is idle for [2]s
 - 在 IDEA 的 Preferences 里搜索 JREBEL，将其设置为 WORK OFFLINE
+- 勾选 Autorenew offline seat
 
 # 阿里规范
 - 安装 'Alibaba Java Coding Guidelines' plugin
