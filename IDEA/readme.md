@@ -6,7 +6,7 @@
 - 打开 IntelliJ IDEA 后，暂时选择 30 天免费试用 Evaluate for free
 - [参考链接](https://www.macfz.com/a/Jetbrainscrack.html)
 ### 线上
-- 在 Settings/Preferences... -> Plugins 内手动添加第三方插件仓库地址：https://plugins.zhile.io
+- 在 Settings/Preferences... -> Plugins 内手动添加第三方插件仓库地址：`https://plugins.zhile.io`
 - 搜索：IDE Eval Reset插件进行安装
 ### 线下
 - 或者下载 ide-eval-resetter-2.1.6.jar包
