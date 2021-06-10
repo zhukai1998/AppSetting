@@ -1,6 +1,6 @@
 # Mac
  首先感谢前辈大佬的无私分享，特别是 黑果小兵大佬 和 johnnync13 大佬。
-
+- sudo spctl --master-disable
 # 杂谈
 - 个人偏爱 Mac，所以就把 小米笔记本 Air 13.3 I5-8250U 集显版 只装了 Mac。
 - 买了电脑后，先把硬盘三星 pm981 换成了 三星 pm961.
