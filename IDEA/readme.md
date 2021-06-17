@@ -41,7 +41,7 @@
 - Atom Material File Icons
 - Material Theme UI Plugin
 - rainbow bracketes 
-- ignore
+- ignore   选择maven 和 JetBrains 、或者使用这里面的.gitignore
  
 
 
