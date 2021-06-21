@@ -20,6 +20,7 @@
 如果勾选：Auto reset before per restart ，重置是静默无感知的。
 简单来说：勾选了Auto reset before per restart则无需再管，一劳永逸。
 ```
+
 # 热部署
 ## IDEA JRebel
 
