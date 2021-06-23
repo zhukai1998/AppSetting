@@ -37,11 +37,6 @@
 - 打开 registry
 - 启用 compiler.automake.allow.when.app.running
 
-
-# 阿里规范
-- 安装 'Alibaba Java Coding Guidelines' plugin
-- [参考](https://github.com/alibaba/p3c/tree/master/idea-plugin)
-
 # 插件安装
 - Atom Material File Icons
 - Material Theme UI Plugin
