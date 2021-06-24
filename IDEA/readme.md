@@ -76,7 +76,7 @@
  | param | methodParameters() |||
  | return | methodReturnType() |||
  
- - 
+ - [!img](./template.jpg)
  
 
 
