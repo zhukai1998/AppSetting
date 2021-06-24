@@ -42,6 +42,39 @@
 - Material Theme UI Plugin
 - rainbow bracketes 
 - ignore   选择maven 和 JetBrains 、或者使用这里面的.gitignore
+
+# 注释添加
+- Editor -> File and code Templates -> Java
+```
+/**
+ *
+ * @Description
+ * @Author ${USER}
+ * @Date ${DATE} ${TIME}
+ **/
+```
+- Editor -> Live Templates -> +
+- By default expand with `Enter`
+- Abbreviation: `*`
+- Template Text:
+```
+*
+ * @Author zhukai
+ * @Description //TODO 
+ * @Date $time$ $date$
+ * @Param $param$
+ * @return $return$
+ **/
+ ```
+ - 应用区域选择 Java
+ - EDIT VARIABLES
+ | Name | Expression | Default Value | Skip if defined |
+ | :----: | :----: | :----: | :----: | 
+ | time | time() |||
+ | date | date() |||
+ | param | methodParameters() |||
+ | return | methodReturnType() |||
+ - 
  
 
 
