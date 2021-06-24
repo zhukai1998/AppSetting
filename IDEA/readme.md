@@ -68,12 +68,14 @@
  ```
  - 应用区域选择 Java
  - EDIT VARIABLES
+ 
  | Name | Expression | Default Value | Skip if defined |
  | :----: | :----: | :----: | :----: | 
  | time | time() |||
  | date | date() |||
  | param | methodParameters() |||
  | return | methodReturnType() |||
+ 
  - 
  
 
