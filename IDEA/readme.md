@@ -44,7 +44,7 @@
 - ignore   选择maven 和 JetBrains 、或者使用这里面的.gitignore
 
 # 注释添加
-- Editor -> File and code Templates -> Java
+- Editor -> File and code Templates -> Class、Interface、Enum、AnnotationType
 ```
 /**
  *
