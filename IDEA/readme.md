@@ -54,7 +54,6 @@
  **/
 ```
 - Editor -> Live Templates -> +
-- By default expand with `Enter`
 - Abbreviation: `*`
 - Template Text:
 ```
