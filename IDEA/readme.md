@@ -76,6 +76,11 @@
  | return | methodReturnType() |||
  
  - ![img](./template.jpg)
+
+# SQL配置
+- Editor -> Inspections 
+- 筛选 SQL
+- 取消勾选 No data sources configured 和 Unresolved reference
  
 
 
