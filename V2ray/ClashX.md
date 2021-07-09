@@ -2,7 +2,7 @@
 
 - Git地址：[ClashX](https://github.com/yichengchen/clashX)
 
-## 白名单
+## 白名单，绕过系统代理
 - 编辑`~/.config/clash/proxyIgnoreList.plist`(如果没有该文件，则新建)
 - 加入自定义的白名单域名
 
