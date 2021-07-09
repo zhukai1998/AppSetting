@@ -1,4 +1,5 @@
 # ClashX
+
 - Git地址：[ClashX](https://github.com/yichengchen/clashX)
 
 ## 白名单
@@ -17,7 +18,7 @@
 	<string>localhost</string>
 	<string>*.local</string>
 	<string>*.crashlytics.com</string>
-	<!-- 上面的不能删掉，下面的为自定义-->
+	<!-- 上面的不能删掉，下面的为自定义 -->
         <string>xapi.77qr.com</string>
 	<string>www.gitee.com</string>
 	<string>7ee.77qr.cn</string>
