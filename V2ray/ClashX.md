@@ -23,6 +23,7 @@
 	<string>www.gitee.com</string>
 	<string>7ee.77qr.cn</string>
         <string>47.104.173.221</string>
+	<string>cs.console.aliyun.com</string
 </array>
 </plist>
 ```
