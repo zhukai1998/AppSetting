@@ -19,11 +19,14 @@
 	<string>*.local</string>
 	<string>*.crashlytics.com</string>
 	<!-- 上面的不能删掉，下面的为自定义 -->
-        <string>xapi.77qr.com</string>
-	<string>www.gitee.com</string>
-	<string>7ee.77qr.cn</string>
-        <string>47.104.173.221</string>
-	<string>*.console.aliyun.com</string
+        <!-- 青岛RDS -->
+        <string>service.port.7-event.com</string>
+        <!-- 张家口RDS -->
+        <string>rm-8vbaq2fqdzu5czlvngo.mysql.zhangbei.rds.aliyuncs.com</string>
+        <string>*.77qr.cn</string>
+        <string>*.77qr.com</string>
+        <string>*.gitee.com</string>
+        <string>*.console.aliyun.com</string>
 </array>
 </plist>
 ```
