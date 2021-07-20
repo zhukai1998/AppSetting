@@ -27,6 +27,7 @@
         <string>*.77qr.com</string>
         <string>*.gitee.com</string>
         <string>*.console.aliyun.com</string>
+	<string>*.alipay.com</string>
 </array>
 </plist>
 ```
