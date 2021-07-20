@@ -28,6 +28,7 @@
         <string>*.gitee.com</string>
         <string>*.console.aliyun.com</string>
 	<string>*.alipay.com</string>
+	<string>*.bilibili.com</string>
 </array>
 </plist>
 ```
