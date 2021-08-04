@@ -47,20 +47,25 @@
 - Editor -> File and code Templates -> Class、Interface、Enum、AnnotationType
 ```
 /**
+ * <p>
  *
- * @Description
- * @Author ${USER}
- * @Date ${DATE} ${TIME}
+ * </p>
+ * 
+ * @author ${USER}
+ * @date ${DATE} ${TIME}
  **/
 ```
 - Editor -> Live Templates -> +
 - Abbreviation: `*`
 - Template Text:
 ```
-*
- * @Author zhukai
- * @Description //TODO 
- * @Date $time$ $date$
+ * <p>
+ *
+ * </p>
+ * 
+ * @author ${USER}
+ * @date $time$ $date$
+ *
  * @Param $param$
  * @return $return$
  **/
