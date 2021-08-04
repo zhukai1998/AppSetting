@@ -87,6 +87,16 @@
 - 筛选 SQL
 - 取消勾选 No data sources configured 和 Unresolved reference
  
+ # 代理
+ - 搜索 HTTP Proxy
+ - 选择 Manual proxy configuration
+ - 选择 SOCKS
+ - Host name 填 `localhost`
+ - Port number 填 `7890`
+ - 点击 CHECK CONNECTION
+ - 输入检测的网址，比如`https://github.com:443`
+ - 根据返回的状态判断：是否OK
+ - ![img](./idea_proxy.jpg)
 
 
 
