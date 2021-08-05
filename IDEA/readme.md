@@ -48,7 +48,7 @@
 ```
 /**
  * <p>
- *
+ * 
  * </p>
  * 
  * @author ${USER}
@@ -60,7 +60,7 @@
 - Template Text:
 ```
  * <p>
- *
+ * 
  * </p>
  * 
  * @author ${USER}
