@@ -59,10 +59,10 @@
 - Abbreviation: `*`
 - Template Text:
 ```
+ * 
  * <p>
  * 
  * </p>
- * 
  * @author ${USER}
  * @date $time$ $date$
  *
