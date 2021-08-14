@@ -1,4 +1,28 @@
 # Mac
+
+## 终端配色设置
+- [大佬的帖子里的问答链接中有vim的配置](https://zhuanlan.zhihu.com/p/60880207)
+- `vim ~/.zshrc`
+```text
+export CLICOLOR=1
+export LSCOLORS=ExGxFxdaCxDaDahbadeche
+
+autoload -U colors && colors
+PROMPT="%{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[cyan]%}%m %{$fg_bold[green]%}%1~ %{$reset_color%}%#"
+
+```
+- `vim ~/.vimrc`
+```text
+syntax on	" 自动语法高亮
+set number " 显示行号
+set cindent
+set smartindent " 开启新行时使用智能自动缩进
+set showmatch " 插入括号时，短暂地跳转到匹配的对应括号
+set ruler " 打开状态栏标尺
+:set mouse=a "在vim所有模式下开鼠标，复制文档就可以不包含行号了
+
+```
+
  首先感谢前辈大佬的无私分享，特别是 黑果小兵大佬 和 johnnync13 大佬。
 - sudo spctl --master-disable
 # 杂谈
