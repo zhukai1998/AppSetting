@@ -32,3 +32,6 @@ docker exec -it redis-test /bin/bash
 redis-cli
 set test 1
 ```
+
+
+https://segmentfault.com/a/1190000040443213?sort=votes
