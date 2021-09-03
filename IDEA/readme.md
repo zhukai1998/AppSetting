@@ -89,7 +89,7 @@
 - 筛选 SQL
 - 取消勾选 No data sources configured 和 Unresolved reference
  
- # 代理
+ # 代理 可以不配置的
  - 搜索 HTTP Proxy
  - 选择 Manual proxy configuration
  - 选择 SOCKS
@@ -111,7 +111,7 @@ set test 1
 ```
 
 
-# git
+# git 
 - git config --global http.proxy http://127.0.0.1:7890
 - git config --global https.proxy http://127.0.0.1:7890
 
