@@ -8,4 +8,5 @@ chrome://flags/#allow-insecure-localhost
 您应该看到突出显示的文本说：允许从本地主机加载的资源使用无效证书
 
 单击Enable。
+[!image](./chrome.jpg)
 
