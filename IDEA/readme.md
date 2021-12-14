@@ -38,6 +38,7 @@
 - 启用 compiler.automake.allow.when.app.running
 
 # 插件安装
+- Chinese (Simplified) Language Pack EAP
 - Atom Material File Icons
 - Material Theme UI Plugin
 - rainbow bracketes 
