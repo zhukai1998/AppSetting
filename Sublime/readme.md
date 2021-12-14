@@ -3,6 +3,7 @@
 - `install package ...`
 
 # 插件
+- ChineseLocalizations 中文界面
 - Emmet 提高HTML & CSS3编写速度
 - sideBarEnhancements 侧边栏右键增效插件，提高页面处理速度
 - All Autocomplete 检查全部打开文件，相似自动补全插件
