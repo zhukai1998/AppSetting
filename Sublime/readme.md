@@ -43,3 +43,19 @@ Preferences -> Package Settings -> Doc Blockr -> Settings - User
   "jsdocs_extend_double_slash": false
 }
 ```
+
+- 默认配置
+```json
+{
+	"close_windows_when_empty": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_size": 14,
+	"show_tab_close_buttons_on_left": true,
+	"theme": "Material-Theme.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+}
+
+```
