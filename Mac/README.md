@@ -21,6 +21,8 @@ set showmatch " 插入括号时，短暂地跳转到匹配的对应括号
 set ruler " 打开状态栏标尺
 :set mouse=a "在vim所有模式下开鼠标，复制文档就可以不包含行号了
 
+# 别名
+alias cli-qing="redis-cli -h qingdao2redis.redis.rds.aliyuncs.com -p 6379 -c"
 ```
 
  首先感谢前辈大佬的无私分享，特别是 黑果小兵大佬 和 johnnync13 大佬。
