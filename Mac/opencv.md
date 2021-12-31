@@ -1,6 +1,24 @@
 
 ## M1 编译 opencv.jar
+## brew 
+- `brew edit opencv`
+- 修改`-DBUILD_opencv_java=OFF`为`-DBUILD_opencv_java=ON`
+- 添加
+```shell
+-DOPENCV_JAVA_TARGET_VERSION=1.8
+-DJAVA_INCLUDE_PATH=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/include
+-DJAVA_AWT_LIBRARY=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/libawt.dylib
+-DJAVA_JVM_LIBRARY=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/libjvm.dylib
+````
+- `brew install --build-from-source opencv`
+- jar：`/opt/homebrew/Cellar/opencv/4.5.4_1/share/java/opencv4/opencv-454.jar`
+- dylib : `/opt/homebrew/Cellar/opencv/4.5.4_1/share/java/opencv4/libopencv_java454.dylib`
+- 复制dylib 到 `/Library/Java/Extensions/` 否则加载失败：System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
+
+
+
+## 本地编译
 - `brew install wget`
 - `wget -O opencv.zip https://github.com/opencv/opencv/archive/4.5.0.zip`
 - `unzip opencv.zip`
