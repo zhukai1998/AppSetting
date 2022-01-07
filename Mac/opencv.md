@@ -1,5 +1,6 @@
 
 ## M1 编译 opencv.jar
+
 ## brew 
 - `brew edit opencv`
 - 修改`-DBUILD_opencv_java=OFF`为`-DBUILD_opencv_java=ON`
@@ -18,13 +19,14 @@
 
 
 
-## 本地编译
+## LINUX 本地编译
+
 - `brew install wget`
-- `wget -O opencv.zip https://github.com/opencv/opencv/archive/4.5.0.zip`
+- `wget -O opencv.zip https://github.com/opencv/opencv/archive/4.5.5.zip`
 - `unzip opencv.zip`
-- `wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.5.0.zip`
+- `wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.5.5.zip`
 - `unzip opencv_contrib.zip`
-- `cd opencv-4.5.0`
+- `cd opencv-4.5.5`
 - `mkdir build && cd build`
 - 
 ```shell
@@ -36,12 +38,12 @@ cmake -DCMAKE_SYSTEM_PROCESSOR=arm64 \
 -D CMAKE_INSTALL_PREFIX=/usr/local/opencv \
 -D JAVA_INCLUDE_PATH=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/include \
 -D JAVA_AWT_LIBRARY=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/amd64/libawt.so \
--D JAVA_JVM_LIBRARY=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/arm/server/libjvm.so \
+-D JAVA_JVM_LIBRARY=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib/amd64/server/libjvm.so \
 -D BUILD_opencv_python2=OFF \
 -D BUILD_opencv_java=ON \
 -D INSTALL_PYTHON_EXAMPLES=OFF \
 -D INSTALL_C_EXAMPLES=OFF \
--D OPENCV_EXTRA_MODULES_PATH=/Users/zhukai/Downloads/opencv_contrib-4.5.4/modules/ \
+-D OPENCV_EXTRA_MODULES_PATH=/Users/zhukai/Downloads/opencv-4.5.1/opencv_contrib-4.5.1/modules/ \
 -D OPENCV_ENABLE_NONFREE=ON \
 -D BUILD_EXAMPLES=ON ..
 ```
