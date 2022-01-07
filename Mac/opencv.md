@@ -28,12 +28,12 @@
 - `unzip opencv_contrib.zip`
 - `cd opencv-4.5.5`
 - `mkdir build && cd build`
-- 
+- ant
 ```shell
-cmake -DCMAKE_SYSTEM_PROCESSOR=arm64 \
--DCMAKE_OSX_ARCHITECTURES=arm64 \
--DWITH_OPENJPEG=OFF \
--DWITH_IPP=OFF \
+cmake -D CMAKE_SYSTEM_PROCESSOR=amd64 \
+-D CMAKE_OSX_ARCHITECTURES=amd64 \
+-D WITH_OPENJPEG=OFF \
+-D WITH_IPP=OFF \
 -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local/opencv \
 -D JAVA_INCLUDE_PATH=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/include \
@@ -45,6 +45,7 @@ cmake -DCMAKE_SYSTEM_PROCESSOR=arm64 \
 -D INSTALL_C_EXAMPLES=OFF \
 -D OPENCV_EXTRA_MODULES_PATH=/Users/zhukai/Downloads/opencv-4.5.1/opencv_contrib-4.5.1/modules/ \
 -D OPENCV_ENABLE_NONFREE=ON \
+-D ENABLE_PRECOMPILED_HEADERS=OFF \
 -D BUILD_EXAMPLES=ON ..
 ```
 
