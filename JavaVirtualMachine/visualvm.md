@@ -1,5 +1,10 @@
 jstatd -J-Djava.security.policy=/home/jstatd.all.policy -J-Djava.rmi.server.logCalls=true -J-Djava.rmi.server.hostname=39.103.172.197
 
+
+source /etc/profile
+
+
+
 vim $JAVA_HOME/jre/lib/security/java.policy 
 
 		permission java.lang.RuntimePermission "*";
