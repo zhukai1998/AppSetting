@@ -29,6 +29,7 @@
         <string>*.console.aliyun.com</string>
 	<string>*.alipay.com</string>
 	<string>*.bilibili.com</string>
+	<string>*.baidu.com</string>
 </array>
 </plist>
 ```
