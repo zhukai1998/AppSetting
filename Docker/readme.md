@@ -52,5 +52,14 @@ docker run -d --restart=always --name 设置容器名 使用的镜像
 docker update --restart=always ${容器ID(或者容器名)}
 ```
 
+# docker
+- 运行容器：`docker run -itd --name redis-test -p 6379:6379 redis`
+- 通过redis-cli链接测试使用redis服务：
+```
+docker exec -it redis-test /bin/bash
+redis-cli
+set test 1
+```
+
 
 https://segmentfault.com/a/1190000040443213?sort=votes
