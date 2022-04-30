@@ -102,17 +102,10 @@
  - ![img](./idea_proxy.jpg)
 
 
-# docker
-- 运行容器：`docker run -itd --name redis-test -p 6379:6379 redis`
-- 通过redis-cli链接测试使用redis服务：
-```
-docker exec -it redis-test /bin/bash
-redis-cli
-set test 1
-```
 
 
-# git （必须要加）
+
+# git
 - git config --global http.proxy http://127.0.0.1:7890
 - git config --global https.proxy http://127.0.0.1:7890
 
