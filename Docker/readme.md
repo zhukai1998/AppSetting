@@ -28,7 +28,7 @@ docker system prune --all --force --volumns #这次不仅会删除数据卷，�
 
 
 # docker
-- 运行容器：`docker run -itd --name redis-test -p 6379:6379 redis`
+- 运行容器：`docker run -itd -p 6379:6379 --name redis-test redis`
 - 通过redis-cli链接测试使用redis服务：
 ```
 docker exec -it redis-test /bin/bash
