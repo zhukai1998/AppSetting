@@ -42,6 +42,11 @@
 - 输入`show memory indicator`
 - 设置为`on`
 
+# 改变内存
+- 菜单栏`help`
+- `Change Memory Settings`
+- 更改内存值
+
 # 插件安装
 - Atom Material File Icons
 - Material Theme UI Plugin
