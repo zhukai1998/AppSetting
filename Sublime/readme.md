@@ -34,6 +34,10 @@
 ```
 "close_windows_when_empty": true,
 ```
+- 关闭窗口后自动关闭选项卡（不再热记忆）
+```
+"hot_exit": "only_on_quit",
+```
 
 - 取消注释换行依然会加//
 菜单栏的Sublime Text, 找到：
