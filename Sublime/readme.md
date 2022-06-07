@@ -30,7 +30,10 @@
 ```
 
 
-
+- 关闭最后一个选项卡，则自动关闭窗口
+```
+"close_windows_when_empty": true,
+```
 
 - 取消注释换行依然会加//
 菜单栏的Sublime Text, 找到：
