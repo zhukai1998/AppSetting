@@ -13,7 +13,9 @@
 - ConvertToUTF8 UTF8转换
 - Codecs33 windows 中文编码
 - Material Theme
-- OmniMarkupPreview md 实时预览,需要浏览器支持
+- MarkdownEditing
+- MarkdownLivePreview
+> Preferences -> Key Bindings -> `{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}  }`
 - TableEditor md文件 talbe书写。首先需要用command + shift + p，输入 TableEditor，选择Enable for current syntax/view
 - https://www.jianshu.com/p/161f8f9c4146 其中GoSublime链接如下https://margo.sh/GoSublime
 ```
